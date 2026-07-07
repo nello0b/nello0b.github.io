@@ -1,10 +1,319 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <title>Netanel Berkovits</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Netanel Berkovits, software engineer focused on backend systems, .NET, Python, React, databases, and AI-powered products."
+    />
+    <title>Netanel Berkovits | Software Engineer</title>
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Hi, I'm Netanel</h1>
-    <p>Welcome to my GitHub Pages site.</p>
+    <div class="page">
+      <header class="site-header">
+        <a class="brand" href="#">Netanel Berkovits</a>
+        <nav class="nav" aria-label="Primary navigation">
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="intro-title">
+          <div>
+            <p class="eyebrow">Software Engineer</p>
+            <h1 id="intro-title">Hi, I'm Netanel.</h1>
+            <p class="lede">
+              I am a recent Computer Science graduate from Bar-Ilan University
+              who enjoys turning ideas into practical software. I have built
+              backend services, full-stack applications, and AI-powered tools
+              with .NET, Python, React, databases, and cloud APIs, and I am
+              looking for a team where I can keep learning while contributing to
+              real products.
+            </p>
+            <p class="availability">
+              Currently looking for early-career software engineering, backend,
+              full-stack, frontend, QA automation, BI, or data analysis roles.
+            </p>
+            <div class="hero-actions" aria-label="Primary actions">
+              <a class="button" href="mailto:netanel.berkovits@gmail.com"
+                >Email me</a
+              >
+              <a
+                class="button secondary"
+                href="assets/docs/Netanel-Berkovits-Resume.pdf"
+                >Download resume</a
+              >
+            </div>
+            <div class="social-links" aria-label="Social links">
+              <a href="https://github.com/nello0b">GitHub</a>
+              <a href="https://www.linkedin.com/in/netanel-berkovits-047b68267/"
+                >LinkedIn</a
+              >
+            </div>
+          </div>
+
+          <div class="portrait-wrap">
+            <img
+              class="portrait"
+              src="assets/images/Netanel.webp"
+              alt="Netanel Berkovits"
+            />
+          </div>
+        </section>
+
+        <section id="projects" aria-labelledby="projects-title">
+          <div class="section-head">
+            <h2 id="projects-title">Projects</h2>
+            <p>
+              A few practical systems I built while learning the full path from
+              product idea to backend APIs, databases, client apps, deployment,
+              and iteration.
+            </p>
+          </div>
+
+          <div class="project-list">
+            <article class="project project-with-media">
+              <a
+                class="project-media"
+                href="https://github.com/nello0b/ReadBuddy"
+                aria-label="View ReadBuddy - AI-powered learning assistant on GitHub"
+              >
+                <img
+                  src="assets/images/readbuddy-home.png"
+                  alt="ReadBuddy app home screen"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </a>
+              <div class="project-body">
+                <h3>
+                  <a href="https://github.com/nello0b/ReadBuddy">
+                    ReadBuddy - AI-powered learning assistant
+                  </a>
+                </h3>
+                <p>
+                  Built backend services for a learning assistant designed for
+                  people with ADHD and dyslexia. The system uses FastAPI,
+                  authentication, external APIs, and a prompt pipeline that
+                  cleans, analyzes, and reviews content before producing
+                  learning aids.
+                </p>
+              </div>
+              <div class="tag-row" aria-label="Technologies">
+                <span class="tag">C#</span>
+                <span class="tag">WPF</span>
+                <span class="tag">Python</span>
+                <span class="tag">FastAPI</span>
+                <span class="tag">MongoDB</span>
+                <span class="tag">Redis</span>
+                <span class="tag">Docker</span>
+                <span class="tag">Azure</span>
+                <span class="tag">OpenAI APIs</span>
+                <span class="tag">AI workflow</span>
+              </div>
+            </article>
+
+            <article class="project project-with-media">
+              <a
+                class="project-media"
+                href="https://github.com/nello0b/ChitChat-Messaging-Platform"
+                aria-label="View ChitChat - Messaging Platform on GitHub"
+              >
+                <img
+                  src="assets/images/chitchat-web-chat.png"
+                  alt="ChitChat web chat screen"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </a>
+              <div class="project-body">
+                <h3>
+                  <a
+                    href="https://github.com/nello0b/ChitChat-Messaging-Platform"
+                  >
+                    ChitChat - Messaging Platform
+                  </a>
+                </h3>
+                <p>
+                  Built a WhatsApp-style messaging platform across web and
+                  Android clients, with authentication, chat management, contact
+                  search, real-time data, and persistent storage.
+                </p>
+              </div>
+              <div class="tag-row" aria-label="Technologies">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Java</span>
+                <span class="tag">Android</span>
+                <span class="tag">Firebase</span>
+                <span class="tag">Room</span>
+                <span class="tag">SQL</span>
+                <span class="tag">MongoDB</span>
+                <span class="tag">Retrofit</span>
+              </div>
+            </article>
+
+            <article class="project project-with-media">
+              <a
+                class="project-media"
+                href="https://github.com/nello0b/Breakout-Arkanoid"
+                aria-label="View Breakout Arkanoid on GitHub"
+              >
+                <img
+                  src="assets/images/breakout-arkanoid.png"
+                  alt="Breakout Arkanoid game screen"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </a>
+              <div class="project-body">
+                <h3>
+                  <a href="https://github.com/nello0b/Breakout-Arkanoid">
+                    Breakout Arkanoid
+                  </a>
+                </h3>
+                <p>
+                  Implemented a Java arcade game with four levels, collision
+                  detection, sprite and animation systems, keyboard input, score
+                  tracking, pause flow, countdowns, and game-over handling.
+                </p>
+              </div>
+              <div class="tag-row" aria-label="Technologies">
+                <span class="tag">Java</span>
+                <span class="tag">OOP</span>
+                <span class="tag">Game loops</span>
+                <span class="tag">Collision detection</span>
+                <span class="tag">Ant</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="skills" aria-labelledby="skills-title">
+          <div class="section-head">
+            <h2 id="skills-title">Skills</h2>
+            <p>
+              I am strongest across backend logic, data, APIs, and product
+              behaviour, but I am also a quick learner who adapts well when new
+              challenges come up.
+            </p>
+          </div>
+
+          <div class="skill-grid">
+            <div class="skill-block">
+              <h3>Backend</h3>
+              <p>
+                C#, .NET, Python, FastAPI, Node.js, REST APIs, distributed
+                systems
+              </p>
+            </div>
+            <div class="skill-block">
+              <h3>Frontend</h3>
+              <p>JavaScript, React, HTML, CSS, Android development with Java</p>
+            </div>
+            <div class="skill-block">
+              <h3>Data & Cloud</h3>
+              <p>
+                SQL, MongoDB, Redis, Docker, Azure, Auth0, OpenAI and LLM APIs
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="experience" aria-labelledby="experience-title">
+          <div class="section-head">
+            <h2 id="experience-title">Experience</h2>
+            <p>
+              Alongside software projects, my background includes operational
+              work, tutoring, and service roles that strengthened ownership,
+              communication, and problem solving under pressure.
+            </p>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item">
+              <p class="meta">Bar-Ilan University | 2022-2025</p>
+              <h3>BSc in Computer Science</h3>
+              <p>
+                Graduated with an 87 GPA. Relevant coursework included Software
+                Engineering, Cybersecurity, Programming Languages, Computational
+                Complexity, OOP, Algorithms, Operating Systems, and Machine
+                Learning.
+              </p>
+            </article>
+            <article class="timeline-item">
+              <p class="meta">IDF, COGAT | 2019-2021</p>
+              <h3>Economic Coordination & Liaison NCO</h3>
+              <p>
+                Coordinated economic activity across teams, maintained and
+                improved the branch's tracking tables, and produced operational
+                reports. Reduced report production time by 85%, cutting a
+                process from more than 2 hours to about 20 minutes.
+              </p>
+            </article>
+            <article class="timeline-item">
+              <p class="meta">Center for Educational Technology | 2023-2024</p>
+              <h3>Math Tutor</h3>
+              <p>
+                After the October 7 attack, I looked for a way to help and began
+                tutoring high-school students from southern Israel as they
+                prepared for their mathematics Bagrut exams.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="contact" class="contact" aria-labelledby="contact-title">
+          <div>
+            <h2 id="contact-title">Let's talk.</h2>
+            <p>
+              I am open to early-career roles across software development,
+              backend, full-stack, frontend, QA automation, BI, and data
+              analysis. I am looking for the right place to enter the industry,
+              grow, and contribute.
+              <b>You can email me directly or send me a message on LinkedIn.</b>
+            </p>
+          </div>
+          <div class="contact-actions" aria-label="Contact actions">
+            <a class="button" href="mailto:netanel.berkovits@gmail.com"
+              >Email me</a
+            >
+            <a
+              class="button secondary"
+              href="https://www.linkedin.com/in/netanel-berkovits-047b68267/"
+            >
+              Message me on LinkedIn
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <span>Built by Netanel Berkovits.</span>
+      </footer>
+    </div>
+
+    <a class="back-to-top" href="#" aria-label="Back to top">&uarr;</a>
+
+    <script>
+      const backToTop = document.querySelector(".back-to-top");
+      const projects = document.querySelector("#projects");
+
+      function updateBackToTop() {
+        backToTop.classList.toggle(
+          "is-visible",
+          window.scrollY >= projects.offsetTop - 120,
+        );
+      }
+
+      updateBackToTop();
+      window.addEventListener("scroll", updateBackToTop, { passive: true });
+    </script>
   </body>
 </html>
